@@ -1,0 +1,208 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family : "Roboto", sans-serif;
+}
+body{
+    background: #efefef;
+}
+header{
+    width: 100%;
+    height: 54px;
+    background: #edecf0;
+    display: flex;
+    align-items: center;
+}
+header nav{
+    width: 100%;
+    padding: 0px 24px;
+    display: flex;
+    align-items: center;
+    color: rgb(126, 36, 199);
+    justify-content: space-between;
+}
+header nav h4{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+header nav div{
+    display: flex;
+    align-items: center;
+    
+}
+header nav div a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: grey;
+    padding: 16px 16px;
+}
+#user-profile{
+    background: rgb(55, 55, 182);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: white;
+    font-weight: bold;
+    margin-right: 8px;
+}
+#black{
+    color: black;
+}
+main{
+    padding: 24px;
+}
+main section{
+    margin:24px 0px;
+}
+.flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+}
+.bg-blue{
+    background: rgb(124, 124, 175);
+    color: white;
+}
+.bg-black{
+    background: rgb(187, 126, 56);
+    color: white;
+}
+.bg-white{
+    background: rgb(75, 136, 185);
+    color: white;
+}
+.bg-orange{
+    background: rgb(175, 145, 90);
+    color: white;
+}
+.bg-green{
+    background: rgb(102, 167, 102);
+    color: white;
+}
+.bg-sky{
+    background: rgb(138, 177, 190);
+    color: white;
+}
+.card{
+    background:white ;
+    padding: 16px;
+    border-radius: 8px;
+}
+#icon-container{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    
+   
+}
+.bg-icon-blue{
+    background: rgb(124, 124, 175);
+}
+.item-center{
+     align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.text-sm{
+    font-size: 12px;
+}
+.my-24{
+    margin: 24px 0;
+}
+.picture{
+    background-color: white;
+    width: 100%;
+    height: 240px;
+}
+h3{
+    padding: 16px 16px;
+}
+table tr th{
+    padding: 0px 64px;
+    color: gray;
+
+}
+tbody tr td{
+    padding-left: 64px;
+    padding-top: 8px;
+    color: gray;
+}
+.two{
+    background-color: white;
+    height: 350px;
+
+    
+}
+tr td{
+    border-bottom: solid rgb(232, 231, 243) 1px;
+    color: gray;
+    /* background-color: rgb(233, 240, 240); */
+    padding: 0px 10px;
+    color: black;
+
+}
+tr td button{
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+
+}
+thead tr th{
+    background: rgb(233, 223, 223);
+    padding: 0px;
+    
+}
+tbody tr th{
+    background: rgb(233, 223, 223);
+    padding: 8px;
+    
+  
+}
+.bg-book{
+    /* background: blue; */
+    border: none;
+    color: blue;
+}
+.bg-pen{
+    /* background: rgb(170, 103, 103);
+     */
+     border: none;
+     color: red;
+   
+}
+table thead tr th{
+    justify-content: center;
+    padding:8px 48px;
+}
+table tbody tr td{
+    justify-content: center;
+    padding:8px 48px ;
+}
+.bg-rule{
+    border: none;
+    color: black;
+}
+
